@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// 26ideas custom colors
+				'navy-primary': 'hsl(var(--navy-primary))',
+				'navy-secondary': 'hsl(var(--navy-secondary))',
+				'blue-accent': 'hsl(var(--blue-accent))',
+				'chat-bubble-user': 'hsl(var(--chat-bubble-user))',
+				'chat-bubble-bot': 'hsl(var(--chat-bubble-bot))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
