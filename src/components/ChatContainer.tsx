@@ -15,7 +15,7 @@ const ChatContainer = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hi! I'm the 26ideas FAQ Assistant. How can I help you today?",
+      text: "Hello! I'm here to help answer your questions and have a conversation about anything you'd like to know. What would you like to discuss?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -121,8 +121,8 @@ const ChatContainer = () => {
           <MessageCircle className="w-6 h-6 text-navy-primary" />
         </div>
         <div className="flex-1">
-          <h3 className="font-semibold text-lg">26ideas FAQ Assistant</h3>
-          <p className="text-sm text-blue-accent">Ask me anything about our services</p>
+          <h3 className="font-semibold text-lg">26ideas Q&A Assistant</h3>
+          <p className="text-sm text-blue-accent">Ask questions and chat about the answers</p>
         </div>
         <a 
           href="https://26ideas.com" 
@@ -172,7 +172,7 @@ const ChatContainer = () => {
           <Input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Type your message..."
+            placeholder="Ask a question or continue the conversation..."
             disabled={isLoading}
             className="flex-1 border-gray-300 focus:border-blue-accent focus:ring-blue-accent"
           />
